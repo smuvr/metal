@@ -9,7 +9,7 @@
     <meta name="keywords"
           content="ogrodzenia metalowe, systemy przeciwśniegowe, rynny, konstrukcje stalowe, wyroby metalowe, Białystok">
 
-    <title>MetalMaster – Metal w najlepszej formie | Białystok</title>
+    <title>AlfaModul – Metal w najlepszej formie | Białystok</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -24,7 +24,7 @@
                     colors: {
                         primary: '#2C3E50',    /* Ciemnoniebieski */
                         secondary: '#34495E',  /* Grafitowy */
-                        accent: '#E67E22',     /* Ciepły pomarańczowy dla akcentów */
+                        accent: '#ff0000',     /* Ciepły pomarańczowy dla akcentów */
                         light: '#ECF0F1',      /* Jasnoszary */
                         dark: '#2C3E50',       /* Ciemnoniebieski */
                     },
@@ -70,7 +70,12 @@
     <div class="container mx-auto px-4 py-3">
         <div class="flex justify-between items-center">
             <a href="#" class="text-2xl font-bold text-primary">
-                Metal<span class="text-accent">Master</span>
+                <div class="flex gap-5 items-center">
+                    <div class="w-[50px] h-[50px]">
+                        <img class="w-full h-full object-cover" src="/logo.png" alt="logo">
+                    </div>
+                    <span>ALFA<span class="text-red-600">MODUL</span></span>
+                </div>
             </a>
 
             <!-- Menu mobilne (hamburger) -->
@@ -233,7 +238,7 @@
             <!-- Usługa 1 -->
             <div class="bg-white rounded-lg shadow-lg overflow-hidden service-card fade-in">
                 <img
-                    src="https://images.unsplash.com/photo-1621155346337-1d19476ba7d6?auto=format&fit=crop&w=1470&q=80"
+                    src="/ogrodzenia_metalowe.webp"
                     alt="Ogrodzenia metalowe"
                     class="w-full h-64 object-cover">
                 <div class="p-6">
@@ -267,7 +272,7 @@
             <!-- Usługa 2 -->
             <div class="bg-white rounded-lg shadow-lg overflow-hidden service-card fade-in">
                 <img
-                    src="https://images.unsplash.com/photo-1635424710928-0544e8512eae?auto=format&fit=crop&w=1472&q=80"
+                    src="/systemy_rynnowe.webp"
                     alt="Ograniczniki śniegu i systemy rynnowe"
                     class="w-full h-64 object-cover">
                 <div class="p-6">
@@ -301,7 +306,7 @@
             <!-- Usługa 3 -->
             <div class="bg-white rounded-lg shadow-lg overflow-hidden service-card fade-in">
                 <img
-                    src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1470&q=80"
+                    src="/zamówienie.webp"
                     alt="Konstrukcje metalowe na zamówienie"
                     class="w-full h-64 object-cover">
                 <div class="p-6">
@@ -348,7 +353,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <!-- Projekt 1 -->
             <div class="overflow-hidden rounded-lg shadow-lg fade-in">
-                <img src="https://images.unsplash.com/photo-1621155346337-1d19476ba7d6?auto=format&fit=crop&w=1470&q=80"
+                <img src="/ogrodzenie_kute.webp"
                      alt="Ogrodzenie kute"
                      class="w-full h-64 object-cover transition-transform duration-500 hover:scale-110">
                 <div class="p-4 bg-white">
@@ -359,7 +364,7 @@
 
             <!-- Projekt 2 -->
             <div class="overflow-hidden rounded-lg shadow-lg fade-in">
-                <img src="https://images.unsplash.com/photo-1518618750560-8f07abde4e4e?auto=format&fit=crop&w=1470&q=80"
+                <img src="/schody_metalowe.webp"
                      alt="Schody metalowe"
                      class="w-full h-64 object-cover transition-transform duration-500 hover:scale-110">
                 <div class="p-4 bg-white">
@@ -370,7 +375,7 @@
 
             <!-- Projekt 3 -->
             <div class="overflow-hidden rounded-lg shadow-lg fade-in">
-                <img src="https://images.unsplash.com/photo-1635424710928-0544e8512eae?auto=format&fit=crop&w=1472&q=80"
+                <img src="/system_rynnowy.webp"
                      alt="System rynnowy"
                      class="w-full h-64 object-cover transition-transform duration-500 hover:scale-110">
                 <div class="p-4 bg-white">
@@ -381,7 +386,7 @@
 
             <!-- Projekt 4 -->
             <div class="overflow-hidden rounded-lg shadow-lg fade-in">
-                <img src="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?auto=format&fit=crop&w=1470&q=80"
+                <img src="/balustrady_kute.webp"
                      alt="Balustrady kute"
                      class="w-full h-64 object-cover transition-transform duration-500 hover:scale-110">
                 <div class="p-4 bg-white">
@@ -392,7 +397,7 @@
 
             <!-- Projekt 5 -->
             <div class="overflow-hidden rounded-lg shadow-lg fade-in">
-                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1470&q=80"
+                <img src="/blachy.webp"
                      alt="Ogrodzenie z blachy trapezowej"
                      class="w-full h-64 object-cover transition-transform duration-500 hover:scale-110">
                 <div class="p-4 bg-white">
@@ -403,7 +408,7 @@
 
             <!-- Projekt 6 -->
             <div class="overflow-hidden rounded-lg shadow-lg fade-in">
-                <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1470&q=80"
+                <img src="/zadaszenie_metalowe.webp"
                      alt="Zadaszenie metalowe"
                      class="w-full h-64 object-cover transition-transform duration-500 hover:scale-110">
                 <div class="p-4 bg-white">
@@ -602,7 +607,7 @@
 <footer class="bg-dark text-white py-10">
     <div class="container mx-auto px-4 text-center">
         <div class="mb-6">
-            <p class="text-sm md:text-base">&copy; <span id="year"></span> MetalMaster Białystok. Wszystkie prawa zastrzeżone.</p>
+            <p class="text-sm md:text-base">&copy; <span id="year"></span> AlfaModul Białystok. Wszystkie prawa zastrzeżone.</p>
             <p class="text-sm md:text-base mt-2">Tworzymy z pasją do metalu 🛠</p>
         </div>
     </div>
